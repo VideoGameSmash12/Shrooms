@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name           Shrooms
+@namespace      github.com/VideoGameSmash12/Shrooms
+@version        1.0.0
+@description    Simple yet extremely effective CSS that breaks web pages
+@author         videogamesm12
+@license        GPLv3
+==/UserStyle== */
+
+* {
+    display: inline;
+    text-shadow: 0 0 5px lime;
+    color: black;
+    font-family: Impact;
+    width: 100%;
+}
+
+body {
+    background: black !important;
+}
+
+header, #content * {
+    display: flex;
+}
+
+#app {
+    display: content;
+}
